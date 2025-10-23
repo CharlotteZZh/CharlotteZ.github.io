@@ -13,12 +13,19 @@ science on public health while emphasizing the fair and ethical use of data for 
 
 My research interests: artificial intelligence, machine learning, biomedicine, health data science, and more to explore. 
 
+Technical Skills: Python, R, Java, SQL, TensorFlow, Pytorch, Seaborn, Matplotlib, Tableau, Microsoft Excel, Machine Learning, Statistics, Data Analysis, Deep Learning, Data Modeling. 
+
+Language: English and Chinese
+
+
 ## Education
 Columbia University, 2025 - Present <br>
-&nbsp;&nbsp;&nbsp; Master of Science in Biostatistics (Theory & Methods)
+&nbsp;&nbsp;&nbsp; - Master of Science in Biostatistics (Theory & Methods) <br>
+&nbsp;&nbsp;&nbsp; - Relevant Courses: Epidemiology, Data Science, Biostatistic Methods, Probability...
 <br><br>
 New York University, 2021 - 2025 <br>
-&nbsp;&nbsp;&nbsp; Major: Data Science | Minor: Leonard N. Stern School of Business - Business Studies
+&nbsp;&nbsp;&nbsp; - Major: Data Science | Minor: Leonard N. Stern School of Business - Business Studies <br>
+&nbsp;&nbsp;&nbsp; - Relevant Courses: Machine Learning, Responsible Data Science, Causal Inference, Data Management & Analysis, Data Structures, Probability & Statistics, Regression, IT in Business & Society...
 
 ## Professional Experience
 Traffic Control Technology Co., Ltd., 2022 - 2025 <br>
