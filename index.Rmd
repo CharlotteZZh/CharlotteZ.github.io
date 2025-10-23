@@ -1,0 +1,16 @@
+---
+title: "Charlotte's Website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+<br><br>
+
+## Introduction
+Hello, my name is Charlotte Zhang. I am a graduate student in the Department of Biostatistics at the Columbia University Mailman School of Public Health. I am passionate in the transformative impact of data
+science on public health while emphasizing the fair and ethical use of data for societal benefit. In my prior experiences, I have applied data science, statistics, machines learning and deep learning methods into fields such as business, biostatistics, high-definition maps, transportation, and psychology, which enhanced my ability to process and analyze large and complex datasets. In the future, I want to join fields like healthcare, pharmaceuticals, and biomedicine, applying my skills to the exploration of rules and patterns in biological data. Hoping to improve disease prevention, diagnosis, treatment, and public health through data-driven solutions.
+
+## Experience
+Undergrad....
+
