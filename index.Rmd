@@ -11,6 +11,22 @@ output:
 Hello, my name is Charlotte Zhang. I am a graduate student in the Department of Biostatistics at the Columbia University Mailman School of Public Health. I am passionate in the transformative impact of data
 science on public health while emphasizing the fair and ethical use of data for societal benefit. In my prior experiences, I have applied data science, statistics, machines learning and deep learning methods into fields such as business, biostatistics, high-definition maps, transportation, and psychology, which enhanced my ability to process and analyze large and complex datasets. In the future, I want to join fields like healthcare, pharmaceuticals, and biomedicine, applying my skills to the exploration of rules and patterns in biological data. Hoping to improve disease prevention, diagnosis, treatment, and public health through data-driven solutions.
 
-## Experience
-Undergrad....
+My research interests: artificial intelligence, machine learning, biomedicine, health data science, and more to explore. 
 
+## Education
+Columbia University, 2025 - Present <br>
+&nbsp;&nbsp;&nbsp; Master of Science in Biostatistics (Theory & Methods)
+<br><br>
+New York University, 2021 - 2025 <br>
+&nbsp;&nbsp;&nbsp; Major: Data Science | Minor: Leonard N. Stern School of Business - Business Studies
+
+## Professional Experience
+Traffic Control Technology Co., Ltd., 2022 - 2025 <br>
+Vacation Home Bid Company, 2023 - Present <br>
+Here Technologies, 2023 <br>
+Thales, 2022 <br>
+
+## Academic Projects and Research
+Research: Contextual Contributions to Youth Suicide Risk, 2024 <br>
+DS Project - ACS Fairness and Model Enhancement, 2024 <br>
+Machine Learning Project - Classification of Song Genre, 2024
