@@ -11,6 +11,7 @@ library("p8105.datasets")
 library(plotly)
 ```
 
+### Clean and select the data
 ```{r}
 data("ny_noaa")
 noaa_clean <- na.omit(ny_noaa) |>
@@ -24,6 +25,7 @@ noaa_clean <- na.omit(ny_noaa) |>
   sample_n(1500)
 ```
 
+### Scatterplot -- Precipitation vs Tmax
 ```{r}
 # Scatterplot -- Precipitation vs Tmax
 noaa_clean |>
@@ -43,6 +45,7 @@ noaa_clean |>
   )
 ```
 
+### Bar plot -- Average Snowfall per month
 ```{r}
 # Bar plot -- Average Snowfall per month
 bar_data <- noaa_clean |>
@@ -63,6 +66,7 @@ plot_ly(
   )
 ```
 
+### Box plot -- Temperature Distribution Across Years
 ```{r}
 # Box plot -- Temperature Distribution Across Years
 box_data <- noaa_clean %>%

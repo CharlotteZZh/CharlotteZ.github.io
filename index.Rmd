@@ -13,7 +13,7 @@ science on public health while emphasizing the fair and ethical use of data for 
 
 My research interests: artificial intelligence, machine learning, biomedicine, health data science, and more to explore. 
 
-Technical Skills: Python, R, Java, SQL, TensorFlow, Pytorch, Seaborn, Matplotlib, Tableau, Microsoft Excel, Machine Learning, Statistics, Data Analysis, Deep Learning, Data Modeling, Shiny, Github. 
+Technical Skills: Python, R, Java, SQL, HTML, CSS, JavaScript, TensorFlow, Pytorch, Seaborn, Matplotlib, Tableau, Microsoft Excel, Machine Learning, Statistics, Data Analysis, Deep Learning, Data Modeling, Shiny, Github...
 
 Language: English and Chinese
 
