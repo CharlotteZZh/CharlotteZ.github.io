@@ -1,5 +1,5 @@
 ---
-title: "Problem 2 dashboard"
+title: "dashboard"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -9,15 +9,46 @@ output:
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
+library(tidyverse)
+library("p8105.datasets")
+library(plotly)
+```
+
+```{r}
+# Clean the data
+data("ny_noaa")
+noaa_clean <- na.omit(ny_noaa) |>
+  mutate(
+    tmax = as.numeric(tmax),
+    tmin = as.numeric(tmin),
+    prcp = as.numeric(prcp),
+    tmax = tmax / 10,
+    tmin = tmin / 10
+  ) |>
+  sample_n(1500)
 ```
 
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
-
+### Scatterplot -- Precipitation vs Tmax
 ```{r}
-
+# Scatterplot -- Precipitation vs Tmax
+noaa_clean |>
+  plot_ly(
+    x = ~prcp,
+    y = ~tmax,
+    type = "scatter",
+    mode = "markers",
+    color = ~tmin,
+    text = ~paste("Date:", date),
+    alpha = 0.5
+  ) |>
+  layout(
+    title = "Tmax vs Precipitation",
+    xaxis = list(title = "Precipitation (tenth of mm)"),
+    yaxis = list(title = "Maximum Temperature (°C)")
+  )
 ```
 
 Column {data-width=350}
@@ -26,12 +57,46 @@ Column {data-width=350}
 ### Chart B
 
 ```{r}
+# Bar plot -- Average Snowfall per month
+bar_data <- noaa_clean |>
+  mutate(month = month(date, label = TRUE)) |>
+  group_by(month) |>
+  summarize(mean_snow = mean(snow))
 
+plot_ly(
+  data = bar_data,
+  x = ~month,
+  y = ~mean_snow,
+  type = "bar"
+) |>
+  layout(
+    title = "Average Monthly Snowfall (mm)",
+    xaxis = list(title = "Month"),
+    yaxis = list(title = "Average Snowfall (mm)")
+  )
 ```
 
 ### Chart C
 
 ```{r}
+box_data <- noaa_clean %>%
+  mutate(
+    year = year(date),
+    tmean = (tmax + tmin) / 2)
 
+plot_ly(
+  data = box_data,
+  x = ~factor(year),   
+  y = ~tmean,        
+  type = "box",
+  boxpoints = "outliers",
+  color = ~factor(year),
+  colors = "viridis"
+  ) |>
+  layout(
+    title = "Temperature Distribution Across Years",
+    xaxis = list(title = "Year"),
+    yaxis = list(title = "Mean Temperature (°C)")
+  )
 ```
 
