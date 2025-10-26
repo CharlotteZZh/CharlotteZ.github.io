@@ -54,7 +54,7 @@ noaa_clean |>
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### Bar plot -- Average Snowfall Per Month
 
 ```{r}
 # Bar plot -- Average Snowfall per month
@@ -76,9 +76,10 @@ plot_ly(
   )
 ```
 
-### Chart C
+### Box plot -- Temperature Distribution Across Years
 
 ```{r}
+# Box plot -- Temperature Distribution Across Years
 box_data <- noaa_clean %>%
   mutate(
     year = year(date),

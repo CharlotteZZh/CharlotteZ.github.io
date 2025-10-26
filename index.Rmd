@@ -8,8 +8,7 @@ output:
 <br><br>
 
 ## Introduction
-Hello, my name is Charlotte Zhang. I am a graduate student in the Department of Biostatistics at the Columbia University Mailman School of Public Health. I am passionate in the transformative impact of data
-science on public health while emphasizing the fair and ethical use of data for societal benefit. In my prior experiences, I have applied data science, statistics, machines learning and deep learning methods into fields such as business, biostatistics, high-definition maps, transportation, and psychology, which enhanced my ability to process and analyze large and complex datasets. In the future, I want to join fields like healthcare, pharmaceuticals, and biomedicine, applying my skills to the exploration of rules and patterns in biological data. Hoping to improve disease prevention, diagnosis, treatment, and public health through data-driven solutions.
+Hello, my name is Charlotte Zhang. I am a graduate student in the Department of Biostatistics at the Columbia University Mailman School of Public Health. I am passionate in the transformative impact of data science on public health while emphasizing the fair and ethical use of data for societal benefit. In my prior experiences, I have applied data science, statistics, machines learning into fields such as business, biostatistics, high-definition maps, transportation, and psychology, which enhanced my ability to process and analyze large and complex datasets. In the future, I want to join fields like healthcare, pharmaceuticals, and biomedicine, applying my skills to the exploration of rules and patterns in biological data. Hoping to improve disease prevention, diagnosis, treatment, and public health through data-driven solutions.
 
 My research interests: artificial intelligence, machine learning, biomedicine, health data science, and more to explore. 
 
@@ -29,11 +28,22 @@ New York University, 2021 - 2025 <br>
 
 ## Professional Experience
 Traffic Control Technology Co., Ltd., 2022 - 2025 <br>
-Vacation Home Bid Company, 2023 - Present <br>
+&nbsp;&nbsp;&nbsp; - Designed an MLP-DQN model to optimize the monitoring of abnormal action current, achieving a stabilized training accuracy of 96.67% <br>
+&nbsp;&nbsp;&nbsp; - Developed a health status calculation model for switch machines using the Fréchet distance
+<br><br>
 Here Technologies, 2023 <br>
+&nbsp;&nbsp;&nbsp; - Employed DBSCAN and advanced descriptive statistics to compare the top four global mapping companies across metrics <br>
+&nbsp;&nbsp;&nbsp; - Led discussions with emerging industries
+<br><br>
 Thales, 2022 <br>
+&nbsp;&nbsp;&nbsp; - Built biometric datasets of 37,000+ photos using Colabeler <br>
+&nbsp;&nbsp;&nbsp; - Led the training of peer interns
 
 ## Academic Projects and Research
 Research: Contextual Contributions to Youth Suicide Risk, 2024 <br>
+&nbsp;&nbsp;&nbsp; - Cleaned large and raw datasets, standardizing student and school names to facilitate analysis <br>
+&nbsp;&nbsp;&nbsp; - Developed an app with interactive visuals using Shiny
+<br><br>
 DS Project - ACS Fairness and Model Enhancement, 2024 <br>
-Machine Learning Project - Classification of Song Genre, 2024
+&nbsp;&nbsp;&nbsp; - Enhanced a logistic classifier predicting income levels using Fairlearn, with sex as the protected attribute <br>
+&nbsp;&nbsp;&nbsp; - Employed bias-mitigating interventions, including Exponential Gradient, Grid Search, and ThresholdOptimizer
