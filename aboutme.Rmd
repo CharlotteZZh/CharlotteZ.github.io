@@ -1,0 +1,39 @@
+---
+title: "About Me"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+<br><br>
+
+## Education
+Columbia University, 2025 - Present <br>
+&nbsp;&nbsp;&nbsp; - Master of Science in Biostatistics (Theory & Methods) <br>
+&nbsp;&nbsp;&nbsp; - Relevant Courses: Epidemiology, Data Science, Biostatistic Methods, Probability...
+<br><br>
+New York University, 2021 - 2025 <br>
+&nbsp;&nbsp;&nbsp; - Major: Data Science | Minor: Leonard N. Stern School of Business - Business Studies <br>
+&nbsp;&nbsp;&nbsp; - Relevant Courses: Machine Learning, Responsible Data Science, Causal Inference, Data Management & Analysis, Data Structures, Probability & Statistics, Regression, IT in Business & Society...
+
+## Professional Experience
+Traffic Control Technology Co., Ltd., 2022 - 2025 <br>
+&nbsp;&nbsp;&nbsp; - Designed an MLP-DQN model to optimize the monitoring of abnormal action current, achieving a stabilized training accuracy of 96.67% <br>
+&nbsp;&nbsp;&nbsp; - Developed a health status calculation model for switch machines using the Fréchet distance
+<br><br>
+Here Technologies, 2023 <br>
+&nbsp;&nbsp;&nbsp; - Employed DBSCAN and advanced descriptive statistics to compare the top four global mapping companies across metrics <br>
+&nbsp;&nbsp;&nbsp; - Led discussions with emerging industries
+<br><br>
+Thales, 2022 <br>
+&nbsp;&nbsp;&nbsp; - Built biometric datasets of 37,000+ photos using Colabeler <br>
+&nbsp;&nbsp;&nbsp; - Led the training of peer interns
+
+## Academic Projects and Research
+Research: Contextual Contributions to Youth Suicide Risk, 2024 <br>
+&nbsp;&nbsp;&nbsp; - Cleaned large and raw datasets, standardizing student and school names to facilitate analysis <br>
+&nbsp;&nbsp;&nbsp; - Developed an app with interactive visuals using Shiny
+<br><br>
+DS Project - ACS Fairness and Model Enhancement, 2024 <br>
+&nbsp;&nbsp;&nbsp; - Enhanced a logistic classifier predicting income levels using Fairlearn, with sex as the protected attribute <br>
+&nbsp;&nbsp;&nbsp; - Employed bias-mitigating interventions, including Exponential Gradient, Grid Search, and ThresholdOptimizer

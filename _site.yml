@@ -7,6 +7,8 @@ navbar:
       href: plotly.html
     - text: "Dashboard"
       href: dashboard.html
+    - text: "AboutMe"
+      href: aboutme.html
     - icon: fa-envelope fa-lg
       href: mailto:<jz4027@cuimc.columbia.edu>
     - icon: fa-github fa-lg
